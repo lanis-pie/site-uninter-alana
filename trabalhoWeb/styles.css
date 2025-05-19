@@ -1,0 +1,249 @@
+body { 
+  font-family: serif, 15px;
+  margin: 0px;
+  padding: 10px;
+  line-height: 1.0;
+}
+header {
+  background-color: #cc98bc;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cc98bc;
+  color: #fff;
+  text-align: center;
+  
+}
+
+h1 {
+  color: #2c2a2c;
+}
+
+
+/* Configurações menu */
+.menu-horizontal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  background-color: #333;
+  justify-content: center; 
+}
+
+.menu-horizontal li {
+  margin: 0 15px;
+}
+
+.menu-horizontal li a {
+  text-decoration: none; 
+  color: white; 
+  padding: 10px 20px; 
+  display: block; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-horizontal li a:hover {
+  background-color: #555; 
+  color: #fab4b4; 
+}
+
+
+ /* centralizar a frase */
+.centralizada {
+  display: block; 
+  text-align: center;
+  margin: 10px 0;
+}
+/* Estilização do conteúdo */
+.conteudo {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Estilização da imagem */
+.imagem img {
+  max-width: 300px;
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 20px;
+  top: 35%;
+}
+/* style lista em 'formaçao' */
+.lista-carreira {
+  position: absolute;
+  top: 45%;
+  right: 90px; 
+  width: 250px;
+  background-color: #ffe0f7; 
+  border: 2px solid #d6d0d4; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 6px rgba(134, 123, 123, 0.1);
+  padding: 20px; 
+}
+
+.lista-carreira h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.lista-carreira ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-carreira ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e6a7d3; 
+  color: white; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+
+.lista-carreira ul li:hover {
+  background-color: #da7cca; 
+}
+/* style de 'contato' */
+.form-contato {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.form-contato h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  border-color: #f06fc5;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 141, 211, 0.5);
+}
+
+.botao {
+  text-align: center;
+}
+
+.botao button {
+  background-color: #ff81c6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao button:hover {
+  background-color: #bb5b8b;
+}
+/* style de 'portfólio' */
+.portfolio {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.portfolio p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projeto {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.projeto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.projeto h2 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #333;
+}
+
+.projeto p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #ff81c6;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.projeto a:hover {
+  background-color: #bb5b8b;
+}
+
+.projeto:hover {
+  transform: scale(1.05);
+}
